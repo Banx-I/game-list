@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.game__card {
+    border: solid black;
+    width: 100%; /* ili podesite u odnosu na širinu kolona grid-a */
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+}
